@@ -11,7 +11,7 @@ Built with **Java 17** and **Spring Boot 3**, it provides a clean REST API and a
 
 - [Project Structure](screenshots/project-structure.png)
 - [Docker Build](screenshots/docker-build-run.png)
-- [Docker Build](screenshots/docker-build-run_localhost.png)
+- [Docker Localhost](screenshots/docker-build-run_localhost.png)
 - [Maven Build](screenshots/maven-build-run.png)
 - [Introduction to PortfolioTracker](screenshots/intro_to_portfoliotracker.png)
 - [Portfolio Interface](screenshots/portfolio-interface.png)
