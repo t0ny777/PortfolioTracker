@@ -14,6 +14,16 @@ Built with **Java 17** and **Spring Boot 3**, it provides a clean REST API and a
 ### Crypto Market Interface (screenshots/crypto-market-interface.png) 
 ### Asset Management Interface (screenshots/asset-management-interface.png)
 
+## Screenshots
+
+- [Project Structure](screenshots/project-structure.png)
+- [Maven Build](screenshots/maven-build-run.jpg)
+- [Docker Build](screenshots/docker-build-run.jpg)
+- [Portfolio Interface](screenshots/portfolio-interface.png)
+- [Crypto Market Interface](screenshots/crypto-market-interface.png)
+- [Asset Management Interface](screenshots/asset-management-interface.jpg)
+
+
 ## 🚀 Features
 
 - **Portfolio Management**: Full CRUD operations for your crypto assets.  
