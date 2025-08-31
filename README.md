@@ -6,23 +6,20 @@ Web application for tracking and analyzing your cryptocurrency portfolio.
 Built with **Java 17** and **Spring Boot 3**, it provides a clean REST API and a simple web interface to monitor your investments, calculate profit/loss, and visualize asset allocation.
 
 ---
-## Screenshots 
-### Project Structure (screenshots/project-structure.png) 
-### Maven Build (screenshots/maven-build-run.png) 
-### Docker Build (screenshots/docker-build-run.png) 
-### Portfolio Interface (screenshots/portfolio-interface.png) 
-### Crypto Market Interface (screenshots/crypto-market-interface.png) 
-### Asset Management Interface (screenshots/asset-management-interface.png)
 
 ## Screenshots
 
 - [Project Structure](screenshots/project-structure.png)
-- [Maven Build](screenshots/maven-build-run.jpg)
-- [Docker Build](screenshots/docker-build-run.jpg)
+- [Docker Build](screenshots/docker-build-run.png)
+- [Docker Build](screenshots/docker-build-run_localhost.png)
+- [Maven Build](screenshots/maven-build-run.png)
+- [Introduction to PortfolioTracker](screenshots/intro_to_portfoliotracker.png)
 - [Portfolio Interface](screenshots/portfolio-interface.png)
 - [Crypto Market Interface](screenshots/crypto-market-interface.png)
-- [Asset Management Interface](screenshots/asset-management-interface.jpg)
+- [Asset Add Interface](screenshots/asset-add-interface.png)
+- [Asset Remove Interface](screenshots/asset-remove-interface.png)
 
+---
 
 ## 🚀 Features
 
@@ -71,7 +68,7 @@ cd portfolio-tracker
 docker-compose up --build
 👉 App will be available at: http://localhost:8080
 
-Method 2: Run Locally with Maven
+### Method 2: Run Locally with Maven
 # Clone the repository
 git clone https://github.com/your-username/portfolio-tracker.git
 cd portfolio-tracker
@@ -83,7 +80,7 @@ mvn spring-boot:run
 
 👉 App will be available at: http://localhost:8070
 
-Method 3: Run from NetBeans IDE
+### Method 3: Run from NetBeans IDE
 
 Open the project in NetBeans
 
