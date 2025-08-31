@@ -68,6 +68,8 @@ cd portfolio-tracker
 docker-compose up --build
 👉 App will be available at: http://localhost:8080
 
+---
+
 ### Method 2: Run Locally with Maven
 # Clone the repository
 git clone https://github.com/your-username/portfolio-tracker.git
@@ -80,6 +82,8 @@ mvn spring-boot:run
 
 👉 App will be available at: http://localhost:8070
 
+---
+
 ### Method 3: Run from NetBeans IDE
 
 Open the project in NetBeans
@@ -87,6 +91,8 @@ Open the project in NetBeans
 Right-click the project → Run
 
 App will be available at: http://localhost:8070
+
+---
 
 📖 API Documentation
 
@@ -120,6 +126,8 @@ Delete an Asset
 
 DELETE /api/portfolio/BTC
 
+---
+
 ✅ Testing
 
 The project is covered with both unit and integration tests.
@@ -128,27 +136,34 @@ To run tests:
 
 mvn test
 
-
 The GitHub Actions CI/CD pipeline automatically runs tests on every push.
 
+---
+
 📁 Project Structure
-src/
-├── main/
-│   ├── java/com/nurda/spring/
-│   │   ├── controller/     # REST controllers (API layer)
-│   │   ├── service/        # Business logic layer
-│   │   ├── repository/     # Data access layer (JPA Repositories)
-│   │   ├── model/          # JPA entities and DTOs
-│   │   └── config/         # Application configuration
-│   └── resources/
-│       ├── static/         # CSS, JS, images
-│       ├── templates/      # HTML pages
-│       └── application.properties
-└── test/                   # Unit and integration tests
+
+PortfolioTracker1
+├── src/
+│ ├── main/
+│ │ ├── java/com/nurda/spring/
+│ │ │ ├── controller/ # REST controllers (API layer)
+│ │ │ ├── dto/ # Data Transfer Objects
+│ │ │ ├── model/ # JPA entities and domain models
+│ │ │ ├── repo/ # Data access layer (Spring Data JPA repositories)
+│ │ │ └── PortfolioTracker1.java # Main Spring Boot application class
+│ │ └── resources/
+│ │ ├── static/ # Static files (HTML, JS)
+│ │ └── application.properties # App configuration
+│ └── test/ # Unit and integration tests
+└── pom.xml # Maven build file
+
+---
 
 📝 License
 
 This project is licensed for educational and portfolio purposes.
+
+---
 
 👨‍💻 Author
 
