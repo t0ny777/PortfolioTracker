@@ -1,11 +1,8 @@
 # PortfolioTracker
-Web application for tracking and analyzing your cryptocurrency portfolio
 
-# 💹 Portfolio Tracker
+![CI](https://github.com/t0ny777/PortfolioTracker/.github/workflows/ci.yml/badge.svg)
 
-![CI](https://github.com/your-username/portfolio-tracker/actions/workflows/ci.yml/badge.svg)
-
-A self-contained web application for tracking and analyzing your cryptocurrency portfolio.  
+Web application for tracking and analyzing your cryptocurrency portfolio.  
 Built with **Java 17** and **Spring Boot 3**, it provides a clean REST API and a simple web interface to monitor your investments, calculate profit/loss, and visualize asset allocation.
 
 ---
