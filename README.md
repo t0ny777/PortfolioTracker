@@ -147,6 +147,7 @@ The GitHub Actions CI/CD pipeline automatically runs tests on every push.
 
 ## 📁 Project Structure
 
+```text
 PortfolioTracker1
 ├── src/
 │ ├── main/
@@ -161,8 +162,7 @@ PortfolioTracker1
 │ │ └── application.properties # App configuration
 │ └── test/ # Unit and integration tests
 └── pom.xml # Maven build file
-
----
+```
 
 ## 📝 License
 
