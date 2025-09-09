@@ -67,10 +67,11 @@ cd portfolio-tracker
 # Build and start the container
 docker-compose up --build
 👉 App will be available at: http://localhost:8080
-
----
+```
 
 ### Method 2: Run Locally with Maven
+
+```bash
 # Clone the repository
 git clone https://github.com/your-username/portfolio-tracker.git
 cd portfolio-tracker
@@ -82,19 +83,19 @@ mvn spring-boot:run
 
 👉 App will be available at: http://localhost:8070
 
----
+```
 
 ### Method 3: Run from NetBeans IDE
 
+```bash
 Open the project in NetBeans
 
 Right-click the project → Run
 
 App will be available at: http://localhost:8070
+```
 
----
-
-📖 API Documentation
+## 📖 API Documentation
 
 Once the application is running, Swagger UI is available at:
 
@@ -103,15 +104,17 @@ Once the application is running, Swagger UI is available at:
 Example API Requests
 
 Get Portfolio Summary
-
+```bash
 GET /api/portfolio
-
+```
 
 Add a New Asset
 
+```bash
 POST /api/portfolio
 Content-Type: application/json
-
+```
+```bash
 {
   "assetId": "BTC",
   "assetName": "Bitcoin",
@@ -120,27 +123,29 @@ Content-Type: application/json
   "purchasePrice": 30000,
   "purchaseDate": "2024-05-01"
 }
-
+```
 
 Delete an Asset
 
+```bash
 DELETE /api/portfolio/BTC
+```
 
----
-
-✅ Testing
+## ✅ Testing
 
 The project is covered with both unit and integration tests.
 
 To run tests:
 
+```bash
 mvn test
+```
 
 The GitHub Actions CI/CD pipeline automatically runs tests on every push.
 
 ---
 
-📁 Project Structure
+## 📁 Project Structure
 
 PortfolioTracker1
 ├── src/
@@ -159,13 +164,13 @@ PortfolioTracker1
 
 ---
 
-📝 License
+## 📝 License
 
 This project is licensed for educational and portfolio purposes.
 
 ---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Developed as a pet project to showcase backend development skills with Java and Spring Boot.
 Purpose: Demonstration of modern Java backend practices for my portfolio, aiming to secure a Junior Java Backend Developer position.
